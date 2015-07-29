@@ -1,0 +1,11 @@
+{
+  "name": "react-defer-image",
+  "version": "0.0.1",
+  "description": "Creates deferred <img> tag.",
+  "main": "src/DeferImage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Are Wojciechowski <are_are_@live.com>",
+  "license": "ISC"
+}
