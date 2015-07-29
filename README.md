@@ -14,11 +14,10 @@ npm install --save react-defer-image
 import React from "react";
 import DeferImage from "react-defer-image";
 
-// In your render
-
 return (
     <DeferImage
-      src="image.png"/>
+      src="image.png"
+      emptySrc="spinner.gif"/>
 );
 
 ```
@@ -32,3 +31,8 @@ Url to image.
 ### `emptySrc="String" [optional]`
 
 Url to image used to render when loading.
+
+
+## Attributions
+
+Thanks to [loktar00](https://github.com/loktar00) / [react-lazy-load](https://github.com/loktar00/react-lazy-load) for inspiration.
