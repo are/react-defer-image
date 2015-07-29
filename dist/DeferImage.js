@@ -37,12 +37,6 @@ var DeferImage = (function (_React$Component) {
   }
 
   _createClass(DeferImage, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var element = this.refs.image.getDOMNode();
-      element.setAttribute("src", element.getAttribute("data-src"));
-    }
-  }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate(prevProps) {
       var element = this.refs.image.getDOMNode();
