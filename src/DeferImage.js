@@ -13,7 +13,7 @@ export default class DeferImage extends React.Component {
 
   componentDidMount() {
     let element = this.refs.image.getDOMNode();
-    element.setAttribute("src", element.getAttribute("data-src"));
+    element.setAttribute("src", this.props.src);
   }
 
   componentDidUpdate(prevProps) {

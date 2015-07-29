@@ -1,6 +1,6 @@
 {
   "name": "react-defer-image",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "React component for deferred <img> tag",
   "main": "dist/DeferImage.js",
   "files": [
