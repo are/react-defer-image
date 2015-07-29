@@ -27,10 +27,8 @@ return (
 
 ### `src="String" [required]`
 
-This is used to set the elements height even when it contains no content.
+Url to image.
 
-```
-<LazyLoad height='100px'>
-    <div>some content</div>
-</LazyLoad>;
-```
+### `emptySrc="String" [optional]`
+
+Url to image used to render when loading.
