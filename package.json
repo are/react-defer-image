@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Are Wojciechowski <are_are_@live.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
 }
