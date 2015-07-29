@@ -1,6 +1,6 @@
 ## React Defer Image Component
 
-Really simple image component that renders deferred.
+Really simple image component that renders itself deferred.
 
 ## Install
 
@@ -17,16 +17,15 @@ import DeferImage from "react-defer-image";
 // In your render
 
 return (
-    <LazyLoad>
-        <div>some content</div>
-    </LazyLoad>;
-)
+    <DeferImage
+      src="image.png"/>
+);
 
 ```
 
 ## Props
 
-### `src="String"`
+### `src="String" [required]`
 
 This is used to set the elements height even when it contains no content.
 
