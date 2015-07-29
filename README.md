@@ -1,4 +1,4 @@
-## React Defer Image Component
+## `react-defer-image`
 
 Really simple image component that renders itself deferred.
 
